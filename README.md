@@ -1,2 +1,2 @@
 # Flappy Bird
- Recreation of the infamous Flappy Bird - an mobile game addictive about a bird trying its own to fly to pass through pipes.
+Recreation of the addictive mobile game Flappy Bird, in which a bird struggles to fly on its own to pass through pipes.
