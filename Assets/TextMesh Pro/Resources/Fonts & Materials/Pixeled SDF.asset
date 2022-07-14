@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!21 &-5630748939801031715
+--- !u!21 &-3226572950471710943
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -33,7 +33,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 6020379878251730927}
+        m_Texture: {fileID: 2839392065415588755}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: Pixeled SDF
   m_EditorClassIdentifier: 
   hashCode: -1558937000
-  material: {fileID: -5630748939801031715}
+  material: {fileID: -3226572950471710943}
   materialHashCode: -1410064520
   m_Version: 1.1.0
   m_SourceFontFileGUID: 66442e74f4300be4fbe65c5605bbf047
@@ -1733,7 +1733,7 @@ MonoBehaviour:
     m_GlyphIndex: 310
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: 6020379878251730927}
+  - {fileID: 2839392065415588755}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0
@@ -2298,7 +2298,7 @@ MonoBehaviour:
   boldSpacing: 7
   italicStyle: 35
   tabSize: 10
---- !u!28 &6020379878251730927
+--- !u!28 &2839392065415588755
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
