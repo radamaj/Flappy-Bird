@@ -8,7 +8,7 @@ public class PipeSpawner : MonoBehaviour
     [SerializeField] private float timeBeforeDestroying = 5f;
     [SerializeField] private float pipeHeight = 1.0f;
     [Header("Game Object")]
-    public GameObject dripstonePrefab;
+    public GameObject pipePrefab;
 
     private void FixedUpdate()
     {
@@ -19,9 +19,9 @@ public class PipeSpawner : MonoBehaviour
     {
         if (currentTimeBeforeSpawn > maxTimeBeforeSpawn)
         {
-            GameObject newDripstonePrefab = Instantiate(dripstonePrefab);
-            newDripstonePrefab.transform.position = transform.position + new Vector3(0, Random.Range(-pipeHeight, pipeHeight), 0);
-            Destroy(newDripstonePrefab, timeBeforeDestroying);
+            GameObject newPipePrefab = Instantiate(pipePrefab);
+            newPipePrefab.transform.position = transform.position + new Vector3(0, Random.Range(-pipeHeight, pipeHeight), 0);
+            Destroy(newPipePrefab, timeBeforeDestroying);
             currentTimeBeforeSpawn = 0;
         }
         currentTimeBeforeSpawn += Time.deltaTime;
